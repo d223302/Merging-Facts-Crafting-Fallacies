@@ -1,0 +1,86 @@
+{
+  "instruction": "Write an accurate, engaging, and concise biography of the person using only the provided search results (some of which might be irrelevant) and cite them properly. Use an unbiased and journalistic tone. Always cite for any factual claim. When citing several search results, use [1][2][3]. Cite at least one document and at most three documents in each sentence. If multiple documents support the sentence, only cite a minimum sufficient subset of the documents.",
+  "demo_sep": "\n\n\n",
+  "demo_prompt": "{INST}\n\nName of the person: {Q}\n\n{D}\nAnswer: {A}",
+  "doc_prompt": "Document [{ID}] (Title: {T}): {P}\n",
+  "demos": [
+    {
+      "question": "Billy Conigliaro",
+      "answer": "Billy Conigliaro, born on August 15, 1947, in Revere, Massachusetts, is a former Major League Baseball outfielder who played for the Boston Red Sox (1969-1971), Milwaukee Brewers (1972), and Oakland Athletics (1973) [1]. As the younger brother of Tony Conigliaro, Billy teamed up with him on the Red Sox in 1969 and 1970 [1]. He demonstrated notable batting skills, particularly in 1970 and 1971 with the Red Sox [1]. Conigliaro was known for his resilience, being 10th in the American League in 1970 for being hit by pitches 7 times [4]. His most notable game occurred on July 4, 1970, when he and Tony both hit home runs against the Cleveland Indians [4].Despite his talents, Conigliaro faced dissatisfaction in his career. Unhappy with his situation in Milwaukee, he announced his retirement from baseball mid-1972 season [3]. Billy also studied Shotokan karate under grandmaster Kazumi Tabata [2].",
+      "docs": [
+        {
+          "title": "Billy Conigliaro",
+          "text": "Billy Conigliaro William Michael Conigliaro (born August 15, 1947 in Revere, Massachusetts) is a former Major League Baseball outfielder who played in the American League for the Boston Red Sox (1969\u20131971), Milwaukee Brewers (1972) and Oakland Athletics (1973). He is the younger brother of Tony Conigliaro; Billy and Tony were Red Sox teammates in 1969 and 1970. Conigliaro showed great promise as a hitter in his years in Boston, with 16 doubles and 18 home runs in 1970, and 26 doubles and 11 home runs in 1971. He finished 8th in the American League in doubles in 1971, his most"
+        },
+        {
+          "title": "Billy Conigliaro",
+          "text": "Triple A affiliate on what was to be a \"temporary\" basis. He was an early pupil of Shotokan karate grandmaster, Kazumi Tabata, who acknowledges him in his book. Billy Conigliaro William Michael Conigliaro (born August 15, 1947 in Revere, Massachusetts) is a former Major League Baseball outfielder who played in the American League for the Boston Red Sox (1969\u20131971), Milwaukee Brewers (1972) and Oakland Athletics (1973). He is the younger brother of Tony Conigliaro; Billy and Tony were Red Sox teammates in 1969 and 1970. Conigliaro showed great promise as a hitter in his years in Boston, with 16 doubles"
+        },
+        {
+          "title": "Billy Conigliaro",
+          "text": "home runs during the 1970 season after his famous \"beaning\" incident in 1967. Unhappy in Milwaukee, he announced his retirement from baseball in the middle of the 1972 season. He came back to baseball in 1973 as a part-time player with the eventual World Champion Athletics, making brief appearances in the American League Championship Series and the World Series. Once again Billy became disgruntled with ownership \u2014 this time in Oakland \u2014 and retired at the conclusion of that season. He attempted a comeback with the A's several years later, but ultimately retired for good after being assigned to their"
+        },
+        {
+          "title": "Billy Conigliaro",
+          "text": "productive year in the majors. In 1970, he was 10th in American League in being hit by pitches with 7. His most memorable game may have been on July 4, 1970, when both Billy and Tony homered against the Cleveland Indians. After the 1971 season, Billy was traded from the Red Sox to the Brewers in a blockbuster deal that also included Ken Brett, Jim Lonborg, George Scott, Tommy Harper and Marty Pattin. Billy, who idolized his older brother Tony, had been highly critical of the Red Sox for trading his brother to the Angels, especially after Tony's remarkable 36"
+        },
+        {
+          "title": "Tony Conigliaro",
+          "text": "Providence, Rhode Island as a sports anchor; in August 1976, he moved to a similar position at KGO-TV Channel 7 in San Francisco. On January 9, 1982, Conigliaro, in Boston to interview for a broadcasting position, suffered a heart attack while being driven to the airport by his brother Billy. Shortly thereafter, he suffered a stroke and lapsed into a coma. Conigliaro remained in a vegetative state until his death more than eight years later, in February 1990, at the age of 45. In commemoration, the Red Sox wore black armbands that season. He is buried in Holy Cross Cemetery"
+        }
+      ]
+    },
+    {
+      "question": "Lemuel W. Joiner",
+      "answer": "Lemuel W. Joiner, born on November 9, 1810, in Royalton, Vermont [1][2]. Hw was a significant political figure, serving in both the Wisconsin State Assembly and the Wisconsin State Senate [1]. After moving from his birthplace, he lived in Cincinnati from 1830, Williamsport, Indiana from 1834, and finally settled in Wyoming, Wisconsin in 1845 [1]. Joiner was elected to the Wisconsin State Assembly in 1853 and served in the Wisconsin State Senate three times: first from 1857 to 1858, then from 1861 to 1862, and lastly from 1869 to 1870 [1]. A member of the Republican Party, Joiner passed away on October 22, 1886 [1][2]. His legacy in politics was continued by his son, Robert, who also served in the Senate [1].",
+      "docs": [
+        {
+          "title": "Lemuel W. Joiner",
+          "text": "Lemuel W. Joiner Lemuel Whiting Joiner (November 9, 1810 \u2013 October 22, 1886) was a member of the Wisconsin State Assembly and the Wisconsin State Senate. Joiner was born in 1810 in Royalton, Vermont. He moved to Cincinnati in 1830 and then to Williamsport, Indiana in 1834, and in 1845 he moved to Wyoming, Wisconsin. Joiner died on October 22, 1886. Joiner's son, Robert, also served in the Senate. Joiner was elected to the Assembly in 1853. He was later a member of the Senate three times. First, from 1857 to 1858, second, from 1861 to 1862 and third, from"
+        },
+        {
+          "title": "Lemuel W. Joiner",
+          "text": "1869 to 1870. He was a Republican. Lemuel W. Joiner Lemuel Whiting Joiner (November 9, 1810 \u2013 October 22, 1886) was a member of the Wisconsin State Assembly and the Wisconsin State Senate. Joiner was born in 1810 in Royalton, Vermont. He moved to Cincinnati in 1830 and then to Williamsport, Indiana in 1834, and in 1845 he moved to Wyoming, Wisconsin. Joiner died on October 22, 1886. Joiner's son, Robert, also served in the Senate. Joiner was elected to the Assembly in 1853. He was later a member of the Senate three times. First, from 1857 to 1858, second,"
+        },
+        {
+          "title": "Columbus Marion Joiner",
+          "text": "Columbus Marion Joiner Columbus Marion Joiner, nicknamed Dad Joiner (March 12, 1860 \u2013 March 27, 1947), was an American oilman who at the age of seventy drilled the discovery well of the East Texas Oil Field of the 1930s. Joiner had only seven weeks of formal schooling. Tutored at home, he was taught to read using only the Bible. He learned to write by copying text from the Book of Genesis. In 1883, he entered into the practice of law in Tennessee and was from 1889 to 1891 a member of the Tennessee House of Representatives. He relocated in 1897"
+        },
+        {
+          "title": "Lemuel J. Bowden",
+          "text": "Lemuel J. Bowden Lemuel Jackson Bowden (January 16, 1815January 2, 1864) was an American lawyer and politician from Williamsburg, Virginia. Bowden was born in 1815 in Williamsburg, Virginia, and graduated from the College of William and Mary in 1831-1832. As an adult, Bowden settled in Williamsburg and practiced law there. He was elected to the Virginia House of Delegates three times, serving from 1841 to 1846. In 1850, Lyons was elected to the Virginia Constitutional Convention of 1850. He was one of two delegates elected from the Tidewater delegate district made up of Essex, King and Queen, Middlesex and Mathews"
+        },
+        {
+          "title": "Lemuel Todd",
+          "text": "Lemuel Todd Lemuel Todd (July 29, 1817 \u2013 May 12, 1891) was an American politician who served as an Oppositionist member of the U.S. House of Representatives from Pennsylvania's 16th congressional district from 1855 to 1857 and as a Republican member of the U.S. House of Representatives from Pennsylvania's at-large congressional district from 1873 to 1875. He was an officer in the Pennsylvania Reserves infantry division of the Union Army in the U.S. Civil War and served in multiple battles. Lemuel Todd was born in Carlisle, Pennsylvania and graduated from Dickinson College in Carlisle in 1839. After graduation, he studied"
+        }
+      ]
+    },
+    {
+      "question": "Margaret Rose Vendryes",
+      "answer": "Margaret Rose Vendryes, born in 1955 in Kingston, Jamaica, is a distinguished visual artist, curator, and art historian based in New York [1]. She holds the position of Chair of the Department of Performing and Fine Arts and is the Director of the Fine Arts Gallery at York College in New York [1]. Vendryes's artistic work notably explores themes of power, race, gender, and beauty, often juxtaposing portraits of Western pop culture icons with traditional African masks, a domain traditionally reserved for men [3]. Additionally, Vendryes has curated significant exhibitions, including one at the Ohr-O’Keefe Museum of Art in 2010 titled \"Richmond Barthé: The Seeker\" [4]. ",
+      "docs": [
+        {
+          "title": "Margaret Rose Vendryes",
+          "text": "Margaret Rose Vendryes Margaret Rose Vendryes (born 1955, Kingston, Jamaica) is a visual artist, curator, and art historian based in New York. Vendryes began her studies in costume design before moving to fine art and earning a Bachelor's degree at Amherst College, graduating in 1984. She went on to earn her MA in Art History in 1992 from Tulane University and her PhD from Princeton University in 1997 where she focused on African American art history. Vendryes is Chair of the Department of Performing and Fine Arts and Director of the Fine Arts Gallery at York College in New York"
+        },
+        {
+          "title": "Margaret Rose Vendryes",
+          "text": "of soul & gender - Guro Ntozake\". The exhibition, titled \"i found god in myself: the 40 anniversary of Ntozake Shange's for colored girls...\" and curated by Peter \"Souleo\" Wright, traveled to African American Museum in Philadelphia in 2016 and City Without Walls (cWOW) gallery in 2017 in Newark, New Jersey. The exhibition also featuring artists Ren\u00e9e Cox, Carrie Mae Weems, Deborah Willis, Saya Woolfalk, Michael Paul Britto, Pamela Council and Dianne Smith among others. Margaret Rose Vendryes Margaret Rose Vendryes (born 1955, Kingston, Jamaica) is a visual artist, curator, and art historian based in New York. Vendryes began her"
+        },
+        {
+          "title": "Margaret Rose Vendryes",
+          "text": "juxtaposes and combines portraits of Western pop culture icons with traditional African masks. Because these masks are traditionally worn only by men, she has noted her exploration of power, race, gender and beauty through these works. The project has included many Black American women icons including Aretha Franklin, Grace Jones, and Whitney Houston. Schomburg Center for Research in Black Culture commissioned an artwork in 2014 from Vendryes for an exhibition celebrating the 40th anniversary of Ntozake Shange\u2019s \"for colored girls who have considered suicide / when the rainbow is enuf\" called, \"My spirit is too ancient to understand the separation"
+        },
+        {
+          "title": "Margaret Rose Vendryes",
+          "text": "where she began working in 2000. She has warned against what she calls \"the race-centered approach\" to interpreting artwork, the practice of reading the influence of an artist's race into their artwork, as she believed it could misconstrue the interpretation and context of the work and minimize the assessment of their impact on the larger art movements. In 2010 she curated an exhibition at the new Ohr-O\u2019Keefe Museum of Art called, \"Richmond Barth\u00e9: The Seeker.\" She compared Barthe's work \"Blackberry Woman\" to Wallace Thurman's novel \"The Blacker The Berry... A Novel of Negro Life\" in her thesis dissertation and wrote"
+        },
+        {
+          "title": "Margaret Veley",
+          "text": "Margaret Veley Margaret Veley (12 May 1843 \u2013 7 December 1887) was a British author and poet. Born in Braintree, Essex to Augustus Charles Veley and Sophia Ludbey, she remained unmarried.She was second in a family of four daughters. She died in her early forties after a short illness \"caused by a chill and ending in an affection of the throat.\" Margaret Veley's writing ranged from short and long fiction to poetry. During the 1870s and 1880s she published short stories for magazines, three novels, and a two-volume collection of stories. After her early death a volume of her poetry"
+        }
+      ]
+    }
+  ]
+}

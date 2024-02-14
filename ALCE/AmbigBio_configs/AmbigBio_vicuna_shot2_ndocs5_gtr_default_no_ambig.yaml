@@ -1,0 +1,10 @@
+---
+prompt_file: AmbigBio_prompts/bioqa_default_no_ambig.json
+eval_file: PATH_TO_ambigbio_gtr_top100.json
+shot: 2
+ndoc: 5
+dataset_name: bioqa
+tag: gtr-no-ambig
+model: lmsys/vicuna-7b-v1.5-16k
+temperature: 1.0
+top_p: 0.95

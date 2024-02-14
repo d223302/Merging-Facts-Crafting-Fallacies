@@ -1,0 +1,86 @@
+{
+  "instruction": "Write an accurate, engaging, and concise biography of the person using only the provided search results (some of which might be irrelevant) and cite them properly. Use an unbiased and journalistic tone. Always cite for any factual claim. When citing several search results, use [1][2][3]. Cite at least one document and at most three documents in each sentence. If multiple documents support the sentence, only cite a minimum sufficient subset of the documents.",
+  "demo_sep": "\n\n\n",
+  "demo_prompt": "{INST}\n\nName of the person: {Q}\n\n{D}\nAnswer: {A}",
+  "doc_prompt": "Document [{ID}] (Title: {T}): {P}\n",
+  "demos": [
+    {
+      "question": "Amanda Smith",
+      "answer": "Amanda Smith, born in 1837 to slaves in Long Green, Maryland [2], became a renowned independent missionary, traveling through America, England, Ireland, Scotland, India, and Africa [1]. As a former slave, she founded The Amanda Smith Orphanage and Industrial Home for Abandoned and Destitute Colored Children [2]. She passed away at the age of 78 in 1915 [1] and was posthumously described as “God’s image carved in ebony [1][2].”",
+      "docs": [
+        {
+          "title": "Amanda Smith",
+          "text": "reputation as \"God's image carved in ebony.\" She retired to Sebring, Florida in 1912 due to failing health. Her autobiography was published in 1893, titled \"An Autobiography, The Story of the Lord's Dealing with Mrs. Amanda Smith, the Colored Evangelist Containing an Account of her Life Work of Faith, and Her Travels in America, England, Ireland, Scotland, India, and Africa, as An Independent Missionary.\" She died in 1915 at the age of 78. Amanda Smith Amanda Berry Smith (January 23, 1837 \u2013 February 24, 1915) was a former slave who funded The Amanda Smith Orphanage and Industrial Home for Abandoned"
+        },
+        {
+          "title": "Amanda Smith",
+          "text": "Amanda Smith Amanda Berry Smith (January 23, 1837 \u2013 February 24, 1915) was a former slave who funded The Amanda Smith Orphanage and Industrial Home for Abandoned and Destitute Colored Children. She was referred to as \"God's image carved in ebony\". Smith was born to slaves in Long Green, Maryland, a small town in Baltimore County. Her father's name was Samuel Berry and her mother's name was Mariam Matthews. The Smiths had thirteen children. Her father was a well-trusted man, and his master\u2019s widow trusted him enough to place him in charge of her farm. After his duties for the"
+        },
+        {
+          "title": "Amanda Barnes Smith",
+          "text": "Amanda Barnes Smith Amanda Barnes Smith (February 22, 1809 \u2014 June 30, 1886) was a Mormon pioneer and heroine. She survived the Haun's Mill massacre of 1838 in Missouri. She also helped organize the first Relief Society in Salt Lake City. Amanda Barnes was born on February 22, 1809, in Becket, Massachusetts, to Ezekiel and Fanny Johnson Barnes. She was the fifth of their nine children. Her father did not belong to any religious denomination. Her mother was Presbyterian. After her birth, the family moved to Ohio, where she grew up. She married Warren Smith when she was 18. He"
+        },
+        {
+          "title": "Amanda Barnes Smith",
+          "text": "was a blacksmith. She joined the Campbellites when Sidney Rigdon and Orson Hyde shared their beliefs with her. While her husband did not join with her, he consented. She was baptized by Rigdon. After she had a set of twins, Alma and Alvira, missionaries from the Church of Jesus Christ of Latter-Day Saints taught her of their beliefs. She was taught by Simeon Carter. She was baptized on April 1, 1831, and her husband was baptized shortly thereafter. In 1832, the family moved to Kirtland, Ohio, selling their house in Amherst, Ohio. Her parents did not approve of their decision"
+        },
+        {
+          "title": "Mandy Smith",
+          "text": "the 1990s, Smith wrote a beauty/fashion column for a magazine; since 2012, she has written an advice column for a Christian lifestyle magazine. Mandy Smith Amanda Louise \"Mandy\" Smith (born 17 July 1970) is an English former pop singer and model. Mandy Smith was convent educated, and lived in Tottenham as a young child. She met Bill Wyman when she attended the BPI Awards with her sister Nichola Smith. Also, she modelled for Boy and Katherine Hamnett. Maurice Boland was her agent, and made her famous on the back of her affair with Bill Wyman. The story broke in 1986,"
+        }
+      ]
+    },
+    {
+      "question": "Joseph Schubert",
+      "answer": "Joseph Schubert, a Romanian bishop active during the 19th and 20th centuries, was born in 1890 into an ethnic German family[2][4]. His education in theology led to his ordination as a priest in 1916 in Innsbruck[2][4]. Subsequently, he returned to Romania, serving as a parish priest in Caramurat [2][4], and in 1931, he was appointed as a priest at the Bucharest cathedral[2][4]. Schubert's life concluded in 1969[2].",
+      "docs": [
+        {
+          "title": "Joseph Schubert (composer)",
+          "text": "Joseph Schubert (composer) Joseph Schubert (20 December 1754 \u2013 28 July 1837) was a German composer, violinist, and violist. Schubert was born in Varnsdorf, Bohemia (now Czech Republic) to a musical family. He received his early musical education from his father, who was a \"cantor\", and then in Prague. In 1778, he moved to Berlin to study the violin with Paul Kohn, director of the royal orchestra there. In 1779, Schubert obtained a position as violinist in the court of Heinrich Friedrich, the Margrave of Brandenburg-Schwedt. In 1788, he accepted a post as violist in the court orchestra of Dresden,"
+        },
+        {
+          "title": "Joseph Schubert (bishop)",
+          "text": "Joseph Schubert (bishop) Joseph Schubert (24 June 1890 \u2013 4 April 1969) was a Romanian cleric and a titular bishop of the Roman Catholic Church. Born to an ethnic German family in Bucharest, he studied theology at Innsbruck, becoming doctor of theology and being ordained a priest in 1916. After returning to Romania, he was assigned as parish priest in Caramurat, and in 1931 as a priest attached to the Bucharest cathedral. He also taught at the theological seminary in his native city. Following the 1949 arrest of Anton Durcovici by the authorities of the new Communist regime, he was"
+        },
+        {
+          "title": "Joseph Schubert (politician)",
+          "text": "Joseph Schubert (politician) Joseph Schubert (1889 - 7 March 1952) was a Canadian politician, who served on Montreal City Council from 1924 to 1939. Originally from Romania, Schubert was a prominent labour unionist in the city, and was the only Labour Party representative on Montreal's city council. One of his first prominent actions as a city councillor was a speech protesting police harassment of participants in the city's 1924 May Day parade. In 1931, he built a public bathhouse at the corner of Bagg and St. Lawrence, which still stands today as the Schubert Bath (official French name: \"Bain Schubert\")."
+        },
+        {
+          "title": "Joseph Schubert (bishop)",
+          "text": "Alexandru Todea bishop in 1950. Prior to leaving Romania, he transferred his administrative duties to Iosif Gonciu, who in turn left them to Ioan Robu in 1983. Joseph Schubert (bishop) Joseph Schubert (24 June 1890 \u2013 4 April 1969) was a Romanian cleric and a titular bishop of the Roman Catholic Church. Born to an ethnic German family in Bucharest, he studied theology at Innsbruck, becoming doctor of theology and being ordained a priest in 1916. After returning to Romania, he was assigned as parish priest in Caramurat, and in 1931 as a priest attached to the Bucharest cathedral. He"
+        },
+        {
+          "title": "Joseph Schubert (composer)",
+          "text": "where he remained until his death in 1837. Schubert gained recognition as a versatile composer, cited in the 1812 edition of Ernst Ludwig Gerber's lexicon of composers. His \u0153uvre includes 15 masses, 4 operas, 17 sonatas, and 49 concertos for solo instruments. The Saxon State Library in Dresden holds the manuscripts of three viola concertos attributed to him. Joseph Schubert (composer) Joseph Schubert (20 December 1754 \u2013 28 July 1837) was a German composer, violinist, and violist. Schubert was born in Varnsdorf, Bohemia (now Czech Republic) to a musical family. He received his early musical education from his father, who"
+        }
+      ]
+    },
+    {
+      "question": "George Mudie",
+      "answer": "George Mudie, a Labour Party politician from the UK, was born in 1945 in Dundee [2] and educated at the Waid Academy before studying Social Studies at Newbattle Abbey College [2]. He served as the Member of Parliament (MP) for Leeds East from 1992 until 2015 [2][3]. Mudie's wife is a primary school headmistress [3], and they have a son named Keir [2].",
+      "docs": [
+        {
+          "title": "George Mudie (social reformer)",
+          "text": "George Mudie (social reformer) George Mudie (1788 \u2013 unknown) was a Scottish social reformer, Owenite, co-operator, journalist and publisher. He founded one of the first co-operative communities in the United Kingdom and edited several publications in which he attacked the established theories of political economy. Mudie was born in Edinburgh in 1788. In 1812 he was a member of a discussion group that met in St Andrew's Chapel, Edinburgh, and he tried to persuade that group to form a newsroom. When the group refused to take up this idea, he left Scotland and spent the next few years working as"
+        },
+        {
+          "title": "George Mudie (politician)",
+          "text": "George Mudie (politician) George Edward Mudie (born 6 February 1945) is a Labour Party politician in the United Kingdom who was the Member of Parliament (MP) for Leeds East from 1992 to 2015. Born in Dundee, Scotland's fourth-largest city, George Mudie was educated at the Waid Academy in Anstruther and later studied Social Studies at Newbattle Abbey College in Dalkeith. He worked initially as an engineer and then joined the merchant navy. In 1968 he became a trade union official with the National Union of Public Employees, a position he held until his election to the House of Commons in"
+        },
+        {
+          "title": "George Mudie (politician)",
+          "text": "marriage. He named his eldest son Keir after Keir Hardie. His wife is a primary school headmistress. George Mudie (politician) George Edward Mudie (born 6 February 1945) is a Labour Party politician in the United Kingdom who was the Member of Parliament (MP) for Leeds East from 1992 to 2015. Born in Dundee, Scotland's fourth-largest city, George Mudie was educated at the Waid Academy in Anstruther and later studied Social Studies at Newbattle Abbey College in Dalkeith. He worked initially as an engineer and then joined the merchant navy. In 1968 he became a trade union official with the National"
+        },
+        {
+          "title": "George Mudie (social reformer)",
+          "text": "admitting that he had spent the last few years in poverty. Owen, however, rejected his offer. The following year, in response to the French Revolution of 1848, Mudie produced \"A Solution of the Portentous Enigma of Modern Civilization\" (London, 1849). In this, he criticised the French government for the way in which it had organised unemployed workers into \"national workshops\" . This was Mudie's final known pamphlet. George Mudie (social reformer) George Mudie (1788 \u2013 unknown) was a Scottish social reformer, Owenite, co-operator, journalist and publisher. He founded one of the first co-operative communities in the United Kingdom and edited"
+        },
+        {
+          "title": "George Mudie (social reformer)",
+          "text": "was mainly concerned with explaining the theory of equitable exchange; and Mudie was highly critical of the operating principles adopted by Owen's National Equitable Labour Exchange. Little is known about Mudie's activities during the mid-1830s. He attended trade society meetings and argued for the introduction of a national minimum wage. He also played a small part in the \"War of the Unstamped\" by helping the radical publisher Benjamin Cousins register a printing press in a false name, in order to avoid having Cousins' assets seized. In the late 1830s Mudie edited another journal: \"The Alarm Bell!, or Herald of the"
+        }
+      ]
+    }
+  ]
+}
