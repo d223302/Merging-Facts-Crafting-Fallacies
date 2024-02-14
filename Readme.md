@@ -16,7 +16,6 @@ We also share the generation results and evaluation results here.
 - [Generating Biographies](#generating-biographies)
 - [D-FActScore](#d-factscore)
 - [Results](#results)
-- 
 
 ## AmbigBio
 The data of AmbigBio are placed in `AmbigBio/`.
