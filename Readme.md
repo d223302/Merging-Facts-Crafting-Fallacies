@@ -16,6 +16,12 @@ We also share the generation results and evaluation results here.
 - [Generating Biographies](#generating-biographies)
 - [D-FActScore](#d-factscore)
 - [Results](#results)
+- [News](#news)
+
+## News
+- 🔥🔥🔥  ```2024/08/16```: Our paper is awarded the best paper award at **Towards Knowledgeable Language Models @ ACL 2024 Workshop**
+- ```2024/05/30```: Our paper is accepted as Findings at ACL 2024
+
 
 ## AmbigBio
 The data of AmbigBio are placed in `AmbigBio/`.
